@@ -24,7 +24,7 @@ SHREE CHATBOT
 - This chatbot can be made more responsive by adding some more features.
 - This chatbot can be made more attractive .
 
- 
+ TO VIEW MY CHATBOT : file:///C:/Users/KavyashreeRavi/OneDrive/Desktop/my/shree%20chatbot/index.html
 
 
 
