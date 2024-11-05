@@ -16,15 +16,9 @@ SHREE CHATBOT
 - You can get contact details of the creator.
 - Project of the creator can be viewed.
 
-## Future Scope
 
-- This chatbot can be made dynamic by using some API's.
-- This chatbot can be made more interactive by adding some more features.
-- This chatbot can be made more user friendly by adding some more features.
-- This chatbot can be made more responsive by adding some more features.
-- This chatbot can be made more attractive .
 
- TO VIEW MY CHATBOT : file:///C:/Users/KavyashreeRavi/OneDrive/Desktop/my/shree%20chatbot/index.html
+
 
 
 
