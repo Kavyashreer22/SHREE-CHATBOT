@@ -3,62 +3,50 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Chatbot | KavyaShree R</title>
-  <link rel="icon" href="images/favicon.ico" />
+  <title>Frontend | KavyaShree R</title>
   <link rel="stylesheet" href="style.css" />
+  <link rel="icon" href="images/favicon.ico" />
   <script src="script.js" defer></script>
 </head>
 <body onload="startFunction()">
-
-  <!-- Floating Chatbot Button -->
-  <button class="chatbot-toggle" onclick="toggleChatbox()">💬</button>
-
-  <!-- Chatbot Window -->
-  <div id="chatContainer" class="chat-container">
-    <nav>
-      <div class="navbar">
-        <img class="dpimg" onclick="openFullScreenDP()" src="images/KavyaShreeR.jpg" alt="Profile" />
-        <div class="personalInfo">
-          <label id="name">KavyaShree R</label>
-          <label id="lastseen">last seen today at 01:00am</label>
-        </div>
-        <button onclick="toggleDarkMode()" aria-label="Toggle dark mode">🌓</button>
+  <nav>
+    <div class="navbar">
+      <img class="dpimg" onclick="openFullScreenDP()" src="images/KavyaShreeR.jpg" alt="Profile picture of KavyaShree R" />
+      <div class="personalInfo">
+        <label id="name">KavyaShree R</label>
+        <label id="lastseen">last seen today at 01:00am</label>
       </div>
-    </nav>
+      <button onclick="toggleDarkMode()" aria-label="Toggle dark mode">🌓</button>
+    </div>
+  </nav>
 
-    <div class="scrollable" id="myScrollable">
-      <div class="fullScreenDP" id="fullScreenDP">
-        <div class="insideDP">
-          <img class="dp" src="images/KavyaShreeR.jpg" alt="Full screen profile" />
-          <button class="closeBTN" onclick="closeFullDP()">✖</button>
-        </div>
-      </div>
-
-      <div id="chatting" class="chatting">
-        <ul id="listUL"></ul>
+  <div class="scrollable" id="myScrollable">
+    <div class="fullScreenDP" id="fullScreenDP">
+      <div class="insideDP">
+        <img class="dp" src="images/KavyaShreeR.jpg" alt="Full screen profile of KavyaShree R" />
+        <button class="closeBTN" onclick="closeFullDP()" aria-label="Close profile picture">✖</button>
       </div>
     </div>
 
-    <footer>
-      <div class="sendBar">
-        <input id="inputMSG" onkeypress="isEnter(event)" type="text" placeholder="Type a message" />
-        <svg onclick="sendMsg()" viewBox="0 0 24 24" width="24" height="24">
-          <path fill="currentColor" d="M1.101 21.757 23.8 12.028 1.101 2.3v7.912l13.623 1.816L1.101 13.845z" />
-        </svg>
-      </div>
-    </footer>
+    <div id="chatting" class="chatting">
+      <ul id="listUL"></ul>
+    </div>
   </div>
 
-  <!-- Image Fullscreen Preview -->
-  <div id="imageFullscreen" class="fullscreenPreview" onclick="closeImagePreview()">
-    <button onclick="closeImagePreview()">✖</button>
-    <img id="fullscreenImg" src="" alt="Full Image Preview" />
-  </div>
+  <footer>
+    <div class="sendBar">
+      <input id="inputMSG" onkeypress="isEnter(event)" type="text" placeholder="Type a message" />
+      <svg onclick="sendMsg()" viewBox="0 0 24 24" width="24" height="24">
+        <path fill="currentColor" d="M1.101 21.757 23.8 12.028 1.101 2.3v7.912l13.623 1.816L1.101 13.845z" />
+      </svg>
+    </div>
+  </footer>
 
-  <!-- Greeting Voice -->
-  <audio id="greetingAudio" src="assets/greeting.mp3" preload="auto"></audio>
-
+  <audio id="greetingAudio" src="assets/sentmessage.mp3" preload="auto"></audio>
   <noscript><p>This site requires JavaScript to function properly. Please enable it in your browser.</p></noscript>
+</body>
+</html>
+
 </body>
 </html>
 
